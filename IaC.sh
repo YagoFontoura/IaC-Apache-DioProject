@@ -9,7 +9,7 @@ wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.z
 mv ./main.zip /tmp
 
 unzip /tmp/main.zip -d /var/www/html
-mv /var/www/html/linux-site-dio-main/* /var/www/html -f
+mv -f /var/www/html/linux-site-dio-main/* /var/www/html
 
 
 
